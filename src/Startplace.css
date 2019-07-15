@@ -1,0 +1,20 @@
+.startplace {
+    display: flex;
+    flex-direction: row;
+    font-size: 20px;
+    font-family: 'Oxygen', sans-serif;
+    font-weight: 700;
+    margin-left: 50px;
+    margin-top: 30px; 
+}
+.search {
+    flex-direction: row;
+    display: flex;
+    font-size: 15px;
+    width: 300px;
+    border: none;
+     margin-left: 100px; 
+     outline: none;
+}
+
+@import url('https://fonts.googleapis.com/css?family=Oxygen:400,700&display=swap');
