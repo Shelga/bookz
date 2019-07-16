@@ -1,0 +1,30 @@
+.menutop {
+    margin-left: 50px;
+    margin-top: 70px;
+}
+
+.text {
+    font-size: 10px;
+    font-weight: bold;
+}
+
+h3 {
+    font-size: 10px;
+    color: #bac7ca;
+}
+
+.text2 {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.img3 {
+    width: 15px;
+    height: 15px;
+}
+
+.img4 {
+    width: 15px;
+    height: 15px;
+}

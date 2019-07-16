@@ -1,12 +1,13 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
 import Startplace from './Startplace.js'
+import MenuTop from './MenuTop.js'
 
 function App() {
   return (
     <div>
       <Startplace></Startplace>
+      <MenuTop></MenuTop>
     </div>
   );
 }

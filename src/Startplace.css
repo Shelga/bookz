@@ -13,8 +13,27 @@
     font-size: 15px;
     width: 300px;
     border: none;
-     margin-left: 100px; 
-     outline: none;
+    margin-left: 100px; 
+    outline: none;
+}
+.avatar {
+    width: 25px;
+    height: 25px;
+    background-size: cover;
+    border-radius: 50%;
+    
+}
+.name {
+    font-size: 10px;
+    margin-left: 20px;
+    font-weight: bold;
+    text-align: center;
+    
+}
+.avatarName {
+    display: flex;
+    flex-direction: row;
+    margin-left: 700px;
 }
 
 @import url('https://fonts.googleapis.com/css?family=Oxygen:400,700&display=swap');
