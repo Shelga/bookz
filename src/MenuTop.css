@@ -3,9 +3,20 @@
     margin-top: 70px;
 }
 
+.menuOne {
+    margin-top: 25px;
+    margin-bottom: 35px;
+}
+
+
 .text {
     font-size: 10px;
     font-weight: bold;
+}
+
+.text2 {
+    display: flex;
+    flex-direction: row;
 }
 
 h3 {
@@ -15,16 +26,23 @@ h3 {
 
 .text2 {
     display: flex;
-    flex-direction: column;
-
+    flex-direction: row;
+    width: 95px;
+    height: 25px;
+    margin-top: 15px;
 }
 
-.img3 {
-    width: 15px;
-    height: 15px;
+.img2 {
+    width: 10px;
+    height: 10px;
+    margin-right: 25px;
 }
 
-.img4 {
-    width: 15px;
-    height: 15px;
+.borderForYou {
+    border: 1px black solid;
+    border-radius: 50px;
+    background-color: black;
+    color: white;
+    width: 125px;
+    height: 30px;
 }
