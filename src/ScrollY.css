@@ -1,0 +1,5 @@
+.scrollY {
+    display: grid;
+    background-color: rgb(102, 223, 138);
+    grid-area: sy;
+}

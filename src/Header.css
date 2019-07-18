@@ -1,39 +1,48 @@
-.startplace {
-    display: flex;
-    flex-direction: row;
+.header {
+    display: grid;
+    grid-area: hd;
+    
+}
+
+.logoName {
+    display: grid;
     font-size: 20px;
     font-family: 'Oxygen', sans-serif;
-    font-weight: 700;
-    margin-left: 50px;
-    margin-top: 30px; 
+    font-weight: bold;
+    grid-column-start: 1;
+    grid-column-end: 2;
 }
+
 .search {
-    flex-direction: row;
-    display: flex;
+    display: grid;
     font-size: 15px;
     width: 300px;
     border: none;
-    margin-left: 100px; 
     outline: none;
+    grid-column-start: 2;
+    grid-column-end: 6;
 }
+
+.avatarName {
+    display: grid;
+    grid-column-start: 6;
+    grid-column-end: 8;
+}
+
 .avatar {
+    display: grid;
     width: 25px;
     height: 25px;
     background-size: cover;
     border-radius: 50%;
-    
 }
+
 .name {
     font-size: 10px;
-    margin-left: 20px;
-    font-weight: bold;
-    text-align: center;
-    
 }
-.avatarName {
-    display: flex;
-    flex-direction: row;
-    margin-left: 700px;
-}
+
+
+
+
 
 @import url('https://fonts.googleapis.com/css?family=Oxygen:400,700&display=swap');

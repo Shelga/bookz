@@ -1,15 +1,15 @@
 import React from 'react';
-import './MenuTop.css';
+import './MenuLeft.css';
 import img2 from './static/menu.svg'
 import img3 from './static/search.svg'
-import img4 from './static/whiteheart.svg'
+import { ReactComponent as Whiteheart } from './static/whiteheart.svg'
 import img5 from './static/menu1.svg'
 import img6 from './static/user.svg'
 import img7 from './static/star.svg'
 
-function MenuTop() {
+function MenuLeft() {
     return (
-        <div className="menutop">
+        <div className="menuLeft">
             <div>
                 <h3 className="menuOne">DISCOVER</h3>
                 <div>
@@ -21,8 +21,8 @@ function MenuTop() {
                         <img className="img2" src={img3}></img>
                         <div className="text">Browse</div>
                     </div>
-                    <div className="text2 borderForYou">
-                        <img className="img2" src={img4}></img>
+                    <div className="text2">
+                        <Whiteheart className="buttonIcon"/>
                         <div className="text">For You</div>
                     </div>
                 </div>
@@ -47,4 +47,4 @@ function MenuTop() {
     );
 }
 
-export default MenuTop;
+export default MenuLeft;

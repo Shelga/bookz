@@ -1,0 +1,5 @@
+.scrollX {
+    display: grid;
+    background-color: rgb(126, 183, 233);
+    grid-area: sx;
+}

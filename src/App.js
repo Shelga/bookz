@@ -1,13 +1,19 @@
 import React from 'react';
 import './App.css';
-import Startplace from './Startplace.js'
-import MenuTop from './MenuTop.js'
+import Header from './Header.js'
+import MenuLeft from './MenuLeft.js'
+import ScrollX from './ScrollX.js'
+import ScrollY from './ScrollY.js'
+import Pleer from './Pleer.js'
 
 function App() {
   return (
-    <div>
-      <Startplace></Startplace>
-      <MenuTop></MenuTop>
+    <div className="wrapper">
+      <Header></Header>
+      <MenuLeft></MenuLeft>
+      <ScrollX></ScrollX>
+      <ScrollY></ScrollY>
+      <Pleer></Pleer>
     </div>
   );
 }
