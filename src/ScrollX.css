@@ -3,3 +3,30 @@
     background-color: rgb(126, 183, 233);
     grid-area: sx;
 }
+
+.square {
+    display: grid;
+    width: 350px;
+    height: 200px;
+    border: 1px solid black;
+    border-radius: 30px;
+}
+
+.violetSquare {
+    background-color: #7134bf;
+}
+
+.roseSquare {
+    background-color: #edacc6;
+
+}
+
+.blueSquare {
+    background-color: #03d3d6;
+
+}
+
+.orangeSquare {
+    background-color: #ffa40a;
+
+}

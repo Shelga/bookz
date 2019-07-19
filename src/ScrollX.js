@@ -4,7 +4,12 @@ import './ScrollX.css';
 
 function ScrollX() {
     return (
-       <div className="scrollX"></div>
+       <div className="scrollX">
+           <div className="square violetSquare"></div>
+           <div className="square roseSquare"></div>
+           <div className="square blueSquare"></div>
+           <div className="square orangeSquare"></div>
+       </div>
         
     );
 }

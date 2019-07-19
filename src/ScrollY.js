@@ -4,7 +4,9 @@ import './ScrollY.css';
 
 function ScrollY() {
     return (
-       <div className="scrollY"></div>
+       <div className="scrollY">
+           
+       </div>
         
     );
 }
