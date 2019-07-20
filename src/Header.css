@@ -1,7 +1,6 @@
 .header {
     display: grid;
     grid-area: hd;
-    
 }
 
 .logoName {
@@ -25,8 +24,10 @@
 
 .avatarName {
     display: grid;
+    grid-template-columns: 30px 150px;
+    grid-column-gap: 1px;
     grid-column-start: 6;
-    grid-column-end: 8;
+    grid-column-end: 7;
 }
 
 .avatar {

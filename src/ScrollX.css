@@ -1,6 +1,9 @@
 .scrollX {
     display: grid;
     background-color: rgb(126, 183, 233);
+    grid-template-columns: repeat(4, 1fr);
+    grid-column-gap: 25px;
+    overflow-x: scroll;
     grid-area: sx;
 }
 
@@ -8,7 +11,7 @@
     display: grid;
     width: 350px;
     height: 200px;
-    border: 1px solid black;
+    border: 1px solid transparent;
     border-radius: 30px;
 }
 

@@ -25,9 +25,11 @@
 
 .wrapper {
   display: grid;
+  width: 100vw;
+  height: 100vh;
   grid-template-columns: repeat(8, 1fr);
-  grid-auto-rows: minmax(100px, auto);
-  grid-template-areas: 
+  grid-auto-rows: minmax(50px, auto);
+  grid-template-areas:
   "hd hd hd hd hd hd hd hd" 
   "ml sx sx sx sx sx sx sx" 
   "ml sx sx sx sx sx sx sx" 
