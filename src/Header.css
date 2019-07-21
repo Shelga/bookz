@@ -1,8 +1,10 @@
 .header {
     display: grid;
     grid-area: hd;
-    grid-template-columns: 200px 1000px 50px;
+    grid-template-columns: auto 1fr auto;
     align-items: center;
+    width: 100vw;
+    grid-column-gap: 60px;
 }
 
 .logoName {
