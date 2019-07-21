@@ -1,6 +1,8 @@
 .header {
     display: grid;
     grid-area: hd;
+    grid-template-columns: 200px 1000px 50px;
+    align-items: center;
 }
 
 .logoName {
@@ -8,26 +10,24 @@
     font-size: 20px;
     font-family: 'Oxygen', sans-serif;
     font-weight: bold;
-    grid-column-start: 1;
-    grid-column-end: 2;
+    margin-left: 50px;
+  
 }
 
 .search {
     display: grid;
     font-size: 15px;
-    width: 300px;
     border: none;
     outline: none;
-    grid-column-start: 2;
-    grid-column-end: 6;
+    
 }
 
 .avatarName {
     display: grid;
     grid-template-columns: 30px 150px;
     grid-column-gap: 1px;
-    grid-column-start: 6;
-    grid-column-end: 7;
+    align-items: center;
+   
 }
 
 .avatar {
