@@ -4,7 +4,7 @@
     grid-template-columns: auto 1fr auto;
     align-items: center;
     width: 100vw;
-    grid-column-gap: 60px;
+    grid-column-gap: 80px;
 }
 
 .logoName {
@@ -13,7 +13,6 @@
     font-family: 'Oxygen', sans-serif;
     font-weight: bold;
     margin-left: 50px;
-  
 }
 
 .search {
@@ -21,7 +20,6 @@
     font-size: 15px;
     border: none;
     outline: none;
-    
 }
 
 .avatarName {
@@ -29,7 +27,6 @@
     grid-template-columns: 30px 150px;
     grid-column-gap: 1px;
     align-items: center;
-   
 }
 
 .avatar {
@@ -43,9 +40,5 @@
 .name {
     font-size: 10px;
 }
-
-
-
-
 
 @import url('https://fonts.googleapis.com/css?family=Oxygen:400,700&display=swap');

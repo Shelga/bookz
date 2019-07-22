@@ -1,16 +1,13 @@
 .menuLeft {
-    margin-left: 50px;
-    margin-top: 70px;
     display: grid;
     background-color: rgb(184, 129, 236);
     grid-area: ml;
 }
 
 .menuOne {
-    margin-top: 25px;
-    margin-bottom: 35px;
+    margin-top: 30px;
+    margin-left: 20px;
 }
-
 
 .text {
     font-size: 10px;
@@ -24,8 +21,12 @@
 
 .text2 {
     border-radius: 50px;
-    display: flex;
-    flex-direction: row;
+    display: grid;
+    grid-template-columns: 30px 150px;
+    grid-column-gap: 5px;
+    align-items: center;
+    width: 95px;
+    height: 25px;
 }
 
 .text2:hover {
@@ -33,21 +34,13 @@
     color: white;
 }
 
-.text2:hover > svg {
+.text2:hover>svg {
     fill: white;
 }
 
 h3 {
     font-size: 10px;
     color: #bac7ca;
-}
-
-.text2 {
-    display: flex;
-    flex-direction: row;
-    width: 95px;
-    height: 25px;
-    margin-top: 15px;
 }
 
 .img2 {
@@ -60,7 +53,6 @@ h3 {
     border-radius: 50px;
     background-color: black;
     color: white;
-    width: 125px;
-    height: 30px;
+    width: 250px;
+    height: 50px;
 }
-

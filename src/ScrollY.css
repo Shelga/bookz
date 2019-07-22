@@ -2,4 +2,40 @@
     display: grid;
     background-color: rgb(102, 223, 138);
     grid-area: sy;
+    overflow-y: scroll;
+}
+
+.squareBook {
+    border: 1px solid black;
+    border-radius: 30px;
+}
+
+.cover {
+    width: 150px;
+    height: 200px;
+    border: 1px solid red;
+    border-radius: 30px;
+}
+
+.info {
+    width: 150px;
+    height: 200px;
+    border: 1px solid gold;
+    border-radius: 30px;
+}
+
+.greenSquare {
+    background: linear-gradient(to top, #9cc8c0, #77ccc3);
+}
+
+.yellowSquare {
+    background: linear-gradient(to top, #ffecc5, #ffecc5);
+}
+
+.pinkSquare {
+    background: linear-gradient(to top, #ffb8d1, #ffb7d3);
+}
+
+.transperentSquare {
+    background: linear-gradient(to top, #c2cdc1, #f6f6f6);
 }

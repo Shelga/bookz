@@ -1,11 +1,11 @@
 import React from 'react';
 import './MenuLeft.css';
-import img2 from './static/menu.svg'
-import img3 from './static/search.svg'
+import { ReactComponent as Menu } from './static/menu.svg'
+import { ReactComponent as Search } from './static/search.svg'
 import { ReactComponent as Whiteheart } from './static/whiteheart.svg'
-import img5 from './static/menu1.svg'
-import img6 from './static/user.svg'
-import img7 from './static/star.svg'
+import { ReactComponent as Menu1 } from './static/menu1.svg'
+import { ReactComponent as User } from './static/user.svg'
+import { ReactComponent as Star } from './static/star.svg'
 
 function MenuLeft() {
     return (
@@ -14,15 +14,15 @@ function MenuLeft() {
                 <h3 className="menuOne">DISCOVER</h3>
                 <div>
                     <div className="text2">
-                        <img className="img2" src={img2}></img>
+                        <Menu className="buttonIcon" />
                         <div className="text">Home</div>
                     </div>
                     <div className="text2">
-                        <img className="img2" src={img3}></img>
+                        <Search className="buttonIcon" />
                         <div className="text">Browse</div>
                     </div>
                     <div className="text2">
-                        <Whiteheart className="buttonIcon"/>
+                        <Whiteheart className="buttonIcon" />
                         <div className="text">For You</div>
                     </div>
                 </div>
@@ -30,15 +30,15 @@ function MenuLeft() {
             <div>
                 <h3 className="menuOne">LIBRARY</h3>
                 <div className="text2">
-                    <img className="img2" src={img5}></img>
+                    <Menu1 className="buttonIcon" />
                     <div className="text">Playlists</div>
                 </div>
                 <div className="text2">
-                    <img className="img2" src={img6}></img>
+                    <User className="buttonIcon" />
                     <div className="text">Authors</div>
                 </div>
                 <div className="text2">
-                    <img className="img2" src={img7}></img>
+                    <Star className="buttonIcon" />
                     <div className="text">Favourites</div>
                 </div>
             </div>

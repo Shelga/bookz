@@ -1,6 +1,5 @@
 .scrollX {
     display: grid;
-    background-color: rgb(126, 183, 233);
     grid-template-columns: repeat(4, 1fr);
     grid-column-gap: 25px;
     overflow-x: scroll;
@@ -32,4 +31,12 @@
 .orangeSquare {
     background-color: #ffa40a;
 
+}
+
+.textInSquare {
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    padding-top: 130px;
+    padding-left: 30px;
 }
