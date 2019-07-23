@@ -1,11 +1,27 @@
 .scrollY {
-    display: grid;
+    display: grid; 
     background-color: rgb(102, 223, 138);
     grid-area: sy;
     overflow-y: scroll;
+    grid-template-rows: auto auto;
+}
+
+.scrollY > h1 {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.booksContainer {
+    display: grid;
+    padding: 20px;
+    grid-template-columns: auto auto;
+    grid-gap: 20px 20px;
+    grid-template-rows: repeat(auto-fill, 1fr);
 }
 
 .squareBook {
+    display: grid;
+    grid-template-columns: auto auto;
     border: 1px solid black;
     border-radius: 30px;
 }
@@ -18,6 +34,7 @@
 }
 
 .info {
+    display: grid;
     width: 150px;
     height: 200px;
     border: 1px solid gold;
@@ -38,4 +55,54 @@
 
 .transperentSquare {
     background: linear-gradient(to top, #c2cdc1, #f6f6f6);
+}
+
+.assessment {
+    font-size: 25px;
+    color: #bac7ca;
+}
+
+.nameBook {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.author {
+    color: #bac7ca;
+}
+
+.category.greenSquare {
+    border-radius: 50px;
+    background-color: #ecf4f8;
+    color: #77ccc3;
+    width: 150px;
+    height: 30px;
+    font-size: 15px;
+}
+
+.category .yellowSquare {
+    border-radius: 50px;
+    background-color: #ffecc5;
+    color: #1dafbc;
+    width: 150px;
+    height: 30px;
+    font-size: 15px;
+}
+
+.category .pinkSquare {
+    border-radius: 50px;
+    background-color: #ecf4f8;
+    color: #1dafbc;
+    width: 150px;
+    height: 30px;
+    font-size: 15px;
+}
+
+.category .transperentSquare {
+    border-radius: 50px;
+    background-color: #ecf4f8;
+    color: #c2cdc1;
+    width: 150px;
+    height: 30px;
+    font-size: 15px;
 }

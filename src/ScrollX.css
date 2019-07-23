@@ -4,6 +4,7 @@
     grid-column-gap: 25px;
     overflow-x: scroll;
     grid-area: sx;
+    
 }
 
 .square {
@@ -12,24 +13,29 @@
     height: 200px;
     border: 1px solid transparent;
     border-radius: 30px;
+    margin-top: 30px;
+    margin-bottom: 40px;
 }
 
 .violetSquare {
     background-color: #7134bf;
+    box-shadow: 3px 49px 100px 0px #d4c6e7;
 }
 
 .roseSquare {
     background-color: #edacc6;
-
+    box-shadow: 3px 49px 100px 0px #f1d4e0;
 }
 
 .blueSquare {
     background-color: #03d3d6;
+    box-shadow: 3px 49px 100px 0px #c0ecec;
 
 }
 
 .orangeSquare {
     background-color: #ffa40a;
+    box-shadow: 3px 49px 100px 0px #f1e2c8;
 
 }
 

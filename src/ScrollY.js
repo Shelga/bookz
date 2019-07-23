@@ -6,7 +6,7 @@ function ScrollY() {
     return (
         <div className="scrollY">
             <h1>Daily top 100</h1>
-            <div className="scrollY">
+            <div className="booksContainer">
                 <div className="squareBook">
                     <div className="cover greenSquare"></div>
                     <div className="info">
