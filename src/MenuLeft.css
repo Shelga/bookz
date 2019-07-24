@@ -2,6 +2,7 @@
     display: grid;
     background-color: rgb(184, 129, 236);
     grid-area: ml;
+    
 }
 
 .menuOne {
@@ -12,6 +13,7 @@
 .text {
     font-size: 10px;
     font-weight: bold;
+    
 }
 
 .buttonIcon {
@@ -24,18 +26,23 @@
     display: grid;
     grid-template-columns: 30px 150px;
     grid-column-gap: 5px;
-    align-items: center;
     width: 95px;
     height: 25px;
+    margin-left: 20px;
+    
 }
 
 .text2:hover {
     background-color: black;
     color: white;
+    width: 100px;
+    height: 30px;
+    
 }
 
 .text2:hover>svg {
     fill: white;
+    
 }
 
 h3 {
@@ -47,12 +54,4 @@ h3 {
     width: 10px;
     height: 10px;
     margin-right: 25px;
-}
-
-.borderForYou {
-    border-radius: 50px;
-    background-color: black;
-    color: white;
-    width: 250px;
-    height: 50px;
 }

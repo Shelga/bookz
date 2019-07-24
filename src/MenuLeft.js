@@ -10,40 +10,33 @@ import { ReactComponent as Star } from './static/star.svg'
 function MenuLeft() {
     return (
         <div className="menuLeft">
-            <div>
-                <h3 className="menuOne">DISCOVER</h3>
-                <div>
-                    <div className="text2">
-                        <Menu className="buttonIcon" />
-                        <div className="text">Home</div>
-                    </div>
-                    <div className="text2">
-                        <Search className="buttonIcon" />
-                        <div className="text">Browse</div>
-                    </div>
-                    <div className="text2">
-                        <Whiteheart className="buttonIcon" />
-                        <div className="text">For You</div>
-                    </div>
-                </div>
+            <h3 className="menuOne">DISCOVER</h3>
+            <div className="text2">
+                <Menu className="buttonIcon" />
+                <div className="text">Home</div>
             </div>
-            <div>
-                <h3 className="menuOne">LIBRARY</h3>
-                <div className="text2">
-                    <Menu1 className="buttonIcon" />
-                    <div className="text">Playlists</div>
-                </div>
-                <div className="text2">
-                    <User className="buttonIcon" />
-                    <div className="text">Authors</div>
-                </div>
-                <div className="text2">
-                    <Star className="buttonIcon" />
-                    <div className="text">Favourites</div>
-                </div>
+            <div className="text2">
+                <Search className="buttonIcon" />
+                <div className="text">Browse</div>
+            </div>
+            <div className="text2">
+                <Whiteheart className="buttonIcon" />
+                <div className="text">For You</div>
+            </div>
+            <h3 className="menuOne">LIBRARY</h3>
+            <div className="text2">
+                <Menu1 className="buttonIcon" />
+                <div className="text">Playlists</div>
+            </div>
+            <div className="text2">
+                <User className="buttonIcon" />
+                <div className="text">Authors</div>
+            </div>
+            <div className="text2">
+                <Star className="buttonIcon" />
+                <div className="text">Favourites</div>
             </div>
         </div>
-
     );
 }
 

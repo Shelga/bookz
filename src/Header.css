@@ -5,6 +5,7 @@
     align-items: center;
     width: 100vw;
     grid-column-gap: 80px;
+    margin-top: 20px;
 }
 
 .logoName {
