@@ -4,3 +4,22 @@
     grid-area: pl;
 
 }
+
+.coverBook {
+    background-color: rgb(236, 141, 212);
+    border: 1px solid grey;
+    width: 50px;
+    height: 80px;
+    border-radius: 10px;
+}
+
+.infoBook {
+
+
+}
+
+.pleerIcon {
+    width: 35px;
+    height: 35px;
+
+}
