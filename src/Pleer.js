@@ -16,15 +16,14 @@ function Pleer() {
                         <div className="author">Joanne Ramos</div>
                     </div>
                 </div>
-                <div>
+                <div className="pleerMenu">
                     <div>5:50</div>
-                    <div>
+                    <div className="booksPlayer">
                         <Previous className="pleerIcon" />
                         <Pause className="pleerIcon" />
                         <Next className="pleerIcon" />
                     </div>
                     <div>5:25</div>
-
                 </div>
                 <div className="pleerBlack">
                 </div>
