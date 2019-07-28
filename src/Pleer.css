@@ -1,8 +1,8 @@
 .pleer {
     display: grid;
-    background-color: rgb(241, 239, 90);
+    background-color: #f4f6f8;
     grid-area: pl;
-   
+    border-radius: 40px 40px 0px 0px;
 }
 
 .coverBook {
@@ -38,4 +38,28 @@
     grid-auto-flow: column;
     grid-column-gap: 50px;
   
+}
+
+.timePast {
+    margin-left: 25px;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.timeFuture {
+    font-size: 12px;
+    font-weight: bold;
+
+}
+
+.pleerBlack {
+    background-color: #222025;
+    border-radius: 40px 40px 0px 0px;
+    height: 200px;
+}
+
+.blackPleerIcon {
+    width: 35px;
+    height: 35px;
+    background-color: azure;
 }
