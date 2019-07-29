@@ -29,28 +29,28 @@ function Pleer() {
                 <div className="pleerBlack">
                     <div className="chapter">
                         <PlayButton className="blackPleerIcon"/>
-                        <div>Chapter 01</div>
-                        <div></div>
+                        <p>Chapter 01</p>
+                        <p>2:30</p>
                     </div>
                     <div className="chapter">
                         <PauseButton className="blackPleerIcon" />
-                        <div>Chapter 02</div>
-                        <div></div>
+                        <p>Chapter 02</p>
+                        <p>5:50</p>
                     </div>
                     <div className="chapter">
                         <PlayButton className="blackPleerIcon" />
-                        <div>Chapter 03</div>
-                        <div></div>
+                        <p>Chapter 03</p>
+                        <p>10:33</p>
                     </div>
-                    <div>
+                    <div className="chapter">
                         <PlayButton className="blackPleerIcon" />
-                        <div>Chapter 04</div>
-                        <div></div>
+                        <p>Chapter 04</p>
+                        <p>15:25</p>
                     </div>
-                    <div>
+                    <div className="chapter">
                         <PlayButton className="blackPleerIcon" />
-                        <div>Chapter 05</div>
-                        <div></div>
+                        <p>Chapter 05</p>
+                        <p>18:15</p>
                     </div>
                 </div>
 
