@@ -8,6 +8,10 @@
     margin-top: 20px;
 }
 
+.scrollX::-webkit-scrollbar {
+    display: none;
+}
+
 .square {
     display: grid;
     width: 350px;

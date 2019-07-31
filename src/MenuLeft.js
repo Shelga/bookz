@@ -13,28 +13,28 @@ function MenuLeft() {
             <h3 className="menuOne">DISCOVER</h3>
             <div className="text2">
                 <Menu className="buttonIcon" />
-                <div className="text">Home</div>
+                <p className="text">Home</p>
             </div>
             <div className="text2">
                 <Search className="buttonIcon" />
-                <div className="text">Browse</div>
+                <p className="text">Browse</p>
             </div>
             <div className="text2">
                 <Whiteheart className="buttonIcon" />
-                <div className="text">For You</div>
+                <p className="text">For You</p>
             </div>
             <h3 className="menuOne">LIBRARY</h3>
             <div className="text2">
                 <Menu1 className="buttonIcon" />
-                <div className="text">Playlists</div>
+                <p className="text">Playlists</p>
             </div>
             <div className="text2">
                 <User className="buttonIcon" />
-                <div className="text">Authors</div>
+                <p className="text">Authors</p>
             </div>
             <div className="text2">
                 <Star className="buttonIcon" />
-                <div className="text">Favourites</div>
+                <p className="text">Favourites</p>
             </div>
         </div>
     );

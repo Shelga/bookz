@@ -23,17 +23,18 @@
     display: grid;
     grid-template-columns: 30px 150px;
     grid-column-gap: 5px;
-    width: 95px;
-    height: 25px;
+    width: 150px;
+    height: 40px;
     margin-left: 20px;
     align-items: center;
+    
 }
 
 .text2:hover {
     background-color: black;
     color: white;
-    width: 100px;
-    height: 30px;
+    width: 150px;
+    height: 40px;
 }
 
 .text2:hover>svg {
