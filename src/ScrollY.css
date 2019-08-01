@@ -18,6 +18,10 @@
     grid-template-rows: repeat(auto-fill, 1fr);
 }
 
+.scrollY::-webkit-scrollbar {
+    display: none;
+}
+
 .squareBook {
     display: grid;
     grid-template-columns: auto auto;

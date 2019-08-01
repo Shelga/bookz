@@ -12,10 +12,10 @@ function Pleer() {
             <div className="pleerWhite">
                 <div className="infoBook">
                     <div className="coverBook"></div>
-                    <div className="">
-                        <div className="nameBook">The Water Cure</div>
-                        <div className="author">Joanne Ramos</div>
-                    </div>
+                    <span className="aboutbook">
+                        <p className="nameBookPleer">The Water Cure</p>
+                        <p className="authorPleer">Joanne Ramos</p>
+                    </span>
                 </div>
                 <div className="pleerMenu">
                     <div className="timePast">5:50</div>

@@ -5,6 +5,7 @@
     border-radius: 40px 40px 0px 0px;
 }
 
+
 .coverBook {
     background-color: rgb(236, 141, 212);
     border: 1px solid grey;
@@ -14,9 +15,34 @@
 }
 
 .infoBook {
-
+    display: grid;
+    grid-template-columns: 30px 150px;
+    grid-column-gap: 5px;
+    margin-left: 20px;
+    align-items: center;
+    
 
 }
+
+.aboutbook {
+    margin-left: 20px;
+    margin-top: 15px;
+    margin-bottom: 20px;
+}
+
+.nameBookPleer {
+    font-size: 15px;
+    font-weight: bold;
+    margin-left: 15px;
+    
+}
+
+.authorPleer {
+    color: #bac7ca;
+    margin-left: 15px;
+
+}
+
 
 .pleerIcon {
     width: 35px;
@@ -58,6 +84,10 @@
     height: 200px;
     overflow-y: scroll;
     
+}
+
+.pleerBlack::-webkit-scrollbar {
+    display: none;
 }
 
 .blackPleerIcon {
