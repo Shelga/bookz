@@ -11,31 +11,31 @@ function MenuLeft() {
     return (
         <div className="menuLeft">
             <h3 className="menuOne">DISCOVER</h3>
-            <div className="text2">
+            <button className="text2">
                 <Menu className="buttonIcon" />
                 <p className="text">Home</p>
-            </div>
-            <div className="text2">
+            </button>
+            <button className="text2">
                 <Search className="buttonIcon" />
                 <p className="text">Browse</p>
-            </div>
-            <div className="text2">
+            </button>
+            <button className="text2">
                 <Whiteheart className="buttonIcon" />
                 <p className="text">For You</p>
-            </div>
+            </button>
             <h3 className="menuOne">LIBRARY</h3>
-            <div className="text2">
+            <button className="text2">
                 <Menu1 className="buttonIcon" />
                 <p className="text">Playlists</p>
-            </div>
-            <div className="text2">
+            </button>
+            <button className="text2">
                 <User className="buttonIcon" />
                 <p className="text">Authors</p>
-            </div>
-            <div className="text2">
+            </button>
+            <button className="text2">
                 <Star className="buttonIcon" />
                 <p className="text">Favourites</p>
-            </div>
+            </button>
         </div>
     );
 }

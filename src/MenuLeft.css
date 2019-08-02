@@ -11,11 +11,13 @@
 .text {
     font-size: 10px;
     font-weight: bold;
+    
 }
 
 .buttonIcon {
     width: 15px;
     height: 15px;
+   
 }
 
 .text2 {
@@ -26,8 +28,7 @@
     width: 150px;
     height: 40px;
     margin-left: 20px;
-    align-items: center;
-    
+    border: none;
 }
 
 .text2:hover {
@@ -46,8 +47,3 @@ h3 {
     color: #bac7ca;
 }
 
-.img2 {
-    width: 10px;
-    height: 10px;
-    margin-right: 25px;
-}

@@ -13,7 +13,7 @@ function ScrollY() {
                         <div className="assessment">4.8</div>
                         <div className="nameBook">The Water Cure</div>
                         <div className="author">Joanne Ramos</div>
-                        <div className="category">Biography</div>
+                        <button className="category">Biography</button>
                     </div>
 
                 </div>
@@ -23,7 +23,7 @@ function ScrollY() {
                         <div className="assessment">5.0</div>
                         <div className="nameBook">Karate Chop</div>
                         <div className="author">Dorthe Nors</div>
-                        <div className="category">Biography</div>
+                        <button className="category">Biography</button>
                     </div>
 
                 </div>
@@ -33,7 +33,7 @@ function ScrollY() {
                         <div className="assessment">5.0</div>
                         <div className="nameBook">Severance</div>
                         <div className="author">Ling Ma</div>
-                        <div className="category">Advantures</div>
+                        <button className="category">Advantures</button>
                     </div>
 
                 </div>
@@ -43,7 +43,7 @@ function ScrollY() {
                         <div className="assessment">4.8</div>
                         <div className="nameBook">Territory of light</div>
                         <div className="author">Yuko Tsushima</div>
-                        <div className="category">Biography</div>
+                        <button className="category">Biography</button>
                     </div>
 
                 </div>
