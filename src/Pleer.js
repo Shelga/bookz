@@ -20,9 +20,9 @@ function Pleer() {
                 <div className="pleerMenu">
                     <div className="timePast">5:50</div>
                     <div className="booksPlayer">
-                        <Previous className="pleerIcon" />
-                        <Pause className="pleerIcon" />
-                        <Next className="pleerIcon" />
+                        <button className="pleerButtom"><Previous className="pleerIcon" /></button>
+                        <button className="pleerButtom"><Pause className="pleerIcon" /></button>
+                        <button className="pleerButtom"><Next className="pleerIcon" /></button>
                     </div>
                     <div className="timeFuture">5:25</div>
                 </div>

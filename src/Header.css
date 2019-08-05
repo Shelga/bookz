@@ -5,7 +5,8 @@
     align-items: center;
     width: 100vw;
     grid-column-gap: 80px;
-    margin-top: 20px;
+    margin-top: 30px;
+    margin-bottom: 10px;
     
 }
 
@@ -30,7 +31,7 @@
 .avatarName {
     display: grid;
     grid-template-columns: 30px 150px;
-    grid-column-gap: 1px;
+    grid-column-gap: 15px;
     align-items: center;
 
 }

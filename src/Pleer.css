@@ -8,10 +8,12 @@
 
 .coverBook {
     background-color: rgb(236, 141, 212);
-    border: 1px solid grey;
     width: 50px;
     height: 80px;
     border-radius: 10px;
+    margin-left: 20px;
+    margin-top: 20px;
+    margin-right: 25px;
 }
 
 .infoBook {
@@ -20,13 +22,17 @@
     grid-column-gap: 5px;
     margin-left: 20px;
     align-items: center;
-    
+}
 
+.pleerButtom {
+    border: none;
+    background-color: #f4f6f8;
+    outline: none;
 }
 
 .aboutbook {
     margin-left: 20px;
-    margin-top: 15px;
+    margin-top: 20px;
     margin-bottom: 20px;
 }
 
